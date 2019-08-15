@@ -1,6 +1,6 @@
 
 
-#Regular expressions (RegEx) in C
+# Regular expressions (RegEx) in C
 
 
 RegEx aren't part of Standard C. There are 2 major FOSS-implementations:
@@ -11,7 +11,7 @@ The [POSIX syntax](https://www.regular-expressions.info/posix.html) is the synta
 
 Perl syntax is what most programming languages, like Java, JavaScript, Python, lean on. 
 
-##POSIX RegEx
+## POSIX RegEx
 
 POSIX.2 RegEx
 
@@ -24,7 +24,7 @@ obsolete RegEx (roughly those of ed(1); POSIX.2 "basic" REsRegEx
 ### More Info
 `man 3 regex`, `man 7 regex`
 
-##PCRE
+## PCRE
 
 New projects are advised to use the new PCRE2 libraries.
 
@@ -41,33 +41,33 @@ For didactical reasons, the counterpart to `posix_re` is `pcre2`.
 
 `man 3 pcre`
 
-<http://www.pcre.org/>
+<http://www.pcre.org/><br>
 
-<https://www.regular-expressions.info/pcre.html>
-<https://www.regular-expressions.info/pcre2.html>
+<https://www.regular-expressions.info/pcre.html><br>
+<https://www.regular-expressions.info/pcre2.html><br>
 
 
-##Further Links
+## Further Links
 
-###Selection of some online RegEx-Tester
+### Selection of some online RegEx-Tester
 
-<http://www.rexv.org/>
-<https://regex101.com/>
+<http://www.rexv.org/><br>
+<https://regex101.com/><br>
 
-###Regular Expression Library
+### Regular Expression Library
 
-http://regexlib.com/
+http://regexlib.com/<br>
 
-###More Background
+### More Background
 
 http://en.wikipedia.org/wiki/Regular_expression
 
-###A few reviews of books on RegEx
+### A few reviews of books on RegEx
 
 https://www.regular-expressions.info/books.html
 
-###Learning Sites
+### Learning Sites
 
-https://www.regular-expressions.info/
-https://www.rexegg.com/
-https://regexone.com/
+https://www.regular-expressions.info/<br>
+https://www.rexegg.com/<br>
+https://regexone.com/<br>
